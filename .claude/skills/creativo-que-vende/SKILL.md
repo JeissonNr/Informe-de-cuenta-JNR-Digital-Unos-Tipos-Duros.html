@@ -37,19 +37,32 @@ Cada ángulo es una razón diferente para comprar. Usa los que encajen:
 
 ## 3. Escribe cada creativo con esta estructura
 
+Todo creativo sigue **siempre** esta fórmula, en este orden:
+
+**HOOK → PROMESA → PROBLEMA → SOLUCIÓN → CTA → PROMESA (cierre)**
+
+| Bloque | Qué hace | Video (tiempo aprox.) |
+|---|---|---|
+| **Hook** | Detiene el scroll. Pregunta, afirmación fuerte, dato o imagen/acción inesperada. Máx. ~8 palabras en pantalla. | 0–3 s |
+| **Promesa** | Dice en una frase el resultado que va a obtener ("En 7 días…", "Sin…, sin…"). Da la razón para seguir mirando. | 3–6 s |
+| **Problema** | Nombra el dolor tal como lo vive el cliente, con sus palabras. Que se sienta identificado. | 6–12 s |
+| **Solución** | Presenta el producto/servicio como el puente entre el problema y la promesa. Beneficios antes que características, más una prueba (demo, testimonio, dato real). | 12–22 s |
+| **CTA** | Una sola acción concreta ("Escríbenos por WhatsApp", "Compra hoy con envío gratis"). | 22–26 s |
+| **Promesa (cierre)** | Repite la promesa reforzada, idealmente con la oferta o la garantía, para que sea lo último que recuerde. | 26–30 s |
+
 Para cada ángulo entrega:
 
 1. **Hipótesis:** una frase — "Creemos que X convertirá porque Y".
-2. **Gancho (0–3 s):** 3 variantes. Debe detener el scroll: pregunta, afirmación polémica, dato, o imagen/acción inesperada. Máx. ~8 palabras en pantalla.
-3. **Cuerpo:** problema → solución → prueba → oferta. Frases cortas, beneficios antes que características.
-4. **CTA:** concreto y único ("Escríbenos por WhatsApp", "Compra hoy con envío gratis").
-5. **Copy del anuncio:**
+2. **Hook:** 3 variantes.
+3. **Promesa:** 1–2 variantes.
+4. **Problema, Solución, CTA y Promesa de cierre:** escritos completos, frases cortas.
+5. **Copy del anuncio** (siguiendo la misma fórmula, comprimida):
    - Texto principal (primeras 125 caracteres deben funcionar solos).
    - Titular (≤ 40 caracteres).
    - Descripción (≤ 30 caracteres).
 6. **Brief visual / guion:**
    - Imagen estática: composición, texto en pantalla, colores, elemento protagonista.
-   - Video / UGC: guion por escenas con tiempos (0–3 s, 3–10 s, 10–20 s, cierre), plano, texto en pantalla, voz en off, música/ritmo.
+   - Video / UGC: guion por escenas siguiendo los 6 bloques de la fórmula y sus tiempos, con plano, texto en pantalla, voz en off y música/ritmo por bloque.
 7. **Formato y ubicación** recomendados.
 
 ## 4. Plan de test
@@ -60,6 +73,8 @@ Para cada ángulo entrega:
 
 ## 5. Revisión antes de entregar
 
+- [ ] Cada creativo sigue la fórmula completa: Hook → Promesa → Problema → Solución → CTA → Promesa (cierre).
+- [ ] La promesa de cierre refuerza la inicial (no la contradice ni introduce otra distinta).
 - [ ] Cada creativo tiene un ángulo distinto y una hipótesis.
 - [ ] El gancho se entiende sin sonido y en 3 segundos.
 - [ ] Hay un solo CTA por pieza.
