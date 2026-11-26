@@ -1,0 +1,13 @@
+{
+  "titulo": "Dios no llama a los capacitados",
+  "duracion": 20,
+  "firma": "@jeissonnr",
+  "bloques": [
+    {"start": 0.15, "end": 3.0,  "text": "No esperes sentirte listo.",            "lime": "listo.",             "size": 96,  "y": 420},
+    {"start": 3.35, "end": 6.0,  "text": "Nadie lo está cuando empieza.",          "lime": "empieza.",           "size": 92,  "y": 400},
+    {"start": 6.35, "end": 7.7,  "text": "Porque…",                                "lime": "",                   "size": 120, "y": 400},
+    {"start": 8.0,  "end": 12.6, "text": "Dios no llama a los capacitados, capacita a los llamados.", "lime": "capacita llamados.", "size": 84, "y": 420, "stagger": 0.13},
+    {"start": 12.95,"end": 15.2, "text": "Comienza hoy.",                          "lime": "hoy.",               "size": 110, "y": 400},
+    {"start": 15.55,"end": 19.3, "text": "Tu aventura más grande espera por ti.",  "lime": "aventura grande",    "size": 92,  "y": 410}
+  ]
+}
