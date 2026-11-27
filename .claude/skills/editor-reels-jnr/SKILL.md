@@ -40,3 +40,10 @@ Herramienta: `render_reel.py` (en esta carpeta). Requiere ffmpeg, Pillow y las f
 
 ## Historial de aprendizajes
 - 2026-11-26 · Reel "Dios no llama a los capacitados": Syne es muy ancha; para frases de 6+ palabras usar size 80-88, para 2-3 palabras 110-120. Render de 20 s tarda ~2,5 min en 4 núcleos.
+
+## Carruseles (`carrusel.py`)
+- 1080×1350 (4:5), fondo navy con degradado, brillo lime arriba a la derecha y grano fino. Arriba @jeissonnr y número de lámina; abajo barra de progreso lime; "Desliza →" solo en la 1.
+- Tipos de lámina: `texto`, `check` (casilla "¿Lo toleras? Márcalo." → interacción) y `ejercicio` (3 renglones para escribir).
+- Láminas con `"foto"`: el texto se ancla abajo sobre un degradado navy; sin la foto sale "TU FOTO AQUÍ".
+- Uso: `python3 -I carrusel.py --guion carruseles/x.json --out salida --fotos carpeta_fotos`.
+- 2026-11-27 · "Lo que toleras, se queda": títulos de 8+ palabras en foto → size 70-72; la lámina "¿Cuántas marcaste?" convierte las casillas en comentarios.

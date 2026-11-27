@@ -1,0 +1,16 @@
+{
+  "titulo": "Lo que toleras, se queda",
+  "firma": "@jeissonnr",
+  "laminas": [
+    {"foto": "1.jpg", "kicker": "LO QUE TOLERAS, SE QUEDA", "titulo": "Tu vida es exactamente lo que has estado dispuesto a tolerar.", "lime": "tolerar.", "size": 72},
+    {"titulo": "Léelo otra vez. Despacio.", "lime": "Despacio.", "size": 92, "y": 360, "texto": "Tu vida no es lo que mereces. Ni lo que sueñas. Ni lo que dices que quieres.\n\nEs, con precisión, lo que toleras día tras día."},
+    {"tipo": "check", "titulo": "el trato que no mereces.", "lime": "trato", "size": 84},
+    {"tipo": "check", "titulo": "el trabajo que te apaga.", "lime": "apaga.", "size": 84},
+    {"tipo": "check", "titulo": "hábitos que te destruyen lentamente.", "lime": "destruyen", "size": 80},
+    {"tipo": "check", "titulo": "relaciones que te drenan.", "lime": "drenan.", "size": 84},
+    {"titulo": "¿Cuántas marcaste?", "lime": "marcaste?", "size": 96, "y": 330, "texto": "La gente y la vida te tratan según lo que tú permites.\n\nLo que toleras, se queda. Lo que ya no aceptas, se va."},
+    {"foto": "2.jpg", "titulo": "Tu nivel de tolerancia es el techo de tu vida.", "lime": "techo", "size": 80, "texto": "Mejorar no siempre es agregar cosas nuevas. Es dejar de aguantar las que ya no van."},
+    {"tipo": "ejercicio", "kicker": "EJERCICIO", "kicker_y": 210, "titulo": "3 cosas que toleras y ya no quieres:", "lime": "toleras", "size": 66, "texto": "Marca la que vas a enfrentar primero. Hoy, una acción concreta para decir basta."},
+    {"foto": "3.jpg", "kicker": "TU TURNO", "titulo": "Comenta BASTA + lo que vas a dejar de tolerar.", "lime": "BASTA", "size": 70, "texto": "Guárdalo para el día que se te olvide. Sígueme para la siguiente píldora."}
+  ]
+}
