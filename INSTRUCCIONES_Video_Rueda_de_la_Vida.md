@@ -64,8 +64,9 @@ Repo `JeissonNr/Informe-de-cuenta-JNR-Digital-Unos-Tipos-Duros.html`, rama `clau
 | 5–14 s | **Recorrido por la rueda** | B | La rueda superpuesta junto al dedo. Cada vez que el dedo "toca" un área, **esa área se enciende** (ver paso 4) |
 | 14–16 s | **Selección** | B | El dedo vuelve: se enciende **Dinero y finanzas** + etiqueta **SELECCIONADO**. Texto: "Hoy vamos con **Dinero y finanzas**" |
 | 16–18 s | Instrucción | A o D | "Ponte una nota del 1 al 10 en cada pregunta" |
-| 18–53 s | **10 preguntas** | A, B o D de fondo (difuminado) | Una tarjeta por pregunta, **3,5 s cada una**, con contador 1/10…10/10 y transición rápida entre tarjetas |
-| 53–60 s | **Puntaje** | A | Tarjeta: "Suma tus 10 notas. 100 − tu total = **TU MARGEN DE MEJORA**" |
+| 18–48 s | **10 preguntas en "pops"** | A, B o D de fondo (difuminado) | Cada pregunta **salta en pantalla como un pop-up** (ver paso 5B), **3 s cada una**, con contador 1/10…10/10 |
+| 48–55 s | **📸 Pantalla para captura** | Fondo navy fijo | Las **10 preguntas juntas** en una sola pantalla + texto grande **"📸 TOMA CAPTURA DE PANTALLA y responde"**. Se queda quieta 5–7 s (ver paso 5C) |
+| 55–60 s | **Puntaje** | A | Tarjeta: "Suma tus 10 notas. 100 − tu total = **TU MARGEN DE MEJORA**" |
 | 60–65 s | **3 áreas** | A | "Elige las 3 preguntas con **más margen de mejora**: ahí empieza tu cambio" |
 | 65–75 s | **Cierre / CTA** | C | "Comenta tu margen de mejora y te digo por dónde empezar. **Guárdalo.**" + `@jeissonnr` |
 
@@ -74,6 +75,7 @@ Reglas:
 - Subtítulos de la voz siempre (Syne o DM Sans, palabra clave en lime).
 - Transiciones con sentido (zoom a la rueda, barrido lime), no transiciones genéricas.
 - Último fotograma debe enlazar con el primero (loop) para que la gente lo vea dos veces.
+- Di en voz y en texto al inicio: **"Al final te dejo las 10 preguntas para que hagas captura"**. Eso hace que la gente se quede hasta el final y lo guarde.
 
 ---
 
@@ -124,7 +126,27 @@ Cada persona responde con una **nota del 1 al 10** (10 = está perfecto).
 - **Margen de mejora = 100 − tu total.** Ejemplo: sumaste 62 → tienes 38 puntos para crecer.
 - Elige las **3 preguntas con la nota más baja**: esas son las de **más margen de mejora** y por ahí empiezas.
 
-**Tarjeta de cada pregunta:** caja navy con borde lime en la mitad inferior, etiqueta "DINERO Y FINANZAS · 3/10", la pregunta en Syne ExtraBold blanca, debajo "Ponte nota del 1 al 10" y 10 casillas numeradas. Entra con un deslizamiento corto hacia arriba.
+### 5A. Tarjeta de cada pregunta
+Caja navy con borde lime en la mitad inferior, etiqueta "DINERO Y FINANZAS · 3/10", la pregunta en Syne ExtraBold blanca, debajo "Ponte nota del 1 al 10" y 10 casillas numeradas.
+
+### 5B. Animación "pop" de las preguntas
+Cada pregunta aparece como una **notificación / pop-up** que salta a la pantalla:
+1. Entra con efecto rebote: escala de 0 % → 110 % → 100 % en 0,35 s, con un leve giro de 2° que vuelve a 0°.
+2. Al aparecer, un **sonido "pop"** corto (tipo burbuja o notificación), suave, por debajo de la voz.
+3. Un destello lime en el borde de la tarjeta al entrar.
+4. Sale encogiéndose rápido (100 % → 0 % en 0,2 s) justo antes de que entre la siguiente.
+5. Variante opcional: las preguntas se van **apilando** como notificaciones de celular (la nueva arriba, las anteriores bajan y se atenúan), para que se vea que se acumulan las 10.
+6. Ritmo constante: **3 s por pregunta**. La voz de Jeisson (si lee las preguntas) debe ir sincronizada con cada pop.
+
+### 5C. Pantalla "📸 Toma captura de pantalla"
+Al terminar los pops, una sola pantalla fija con **las 10 preguntas juntas**, pensada para que la gente pause y haga captura:
+1. Fondo navy liso (sin video detrás, para que la captura se lea bien).
+2. Arriba, grande en lime: **"📸 TOMA CAPTURA DE PANTALLA"** y debajo "y responde con calma".
+3. Las 10 preguntas numeradas en DM Sans, letra grande y legible en celular, cada una con un espacio **"___/10"** a la derecha.
+4. Abajo: **"TOTAL: ___/100 · Margen de mejora = 100 − total"**.
+5. Firma `@jeissonnr` abajo, dentro de la zona segura (lejos de los botones de la app).
+6. Debe quedar **quieta 5–7 s** (sin animaciones) para que la captura salga nítida. Un ícono de cámara/flash breve al entrar.
+7. Exporta también esta pantalla como **imagen PNG 1080×1920** por separado, para usarla como historia de Instagram y como lámina extra si luego se hace carrusel.
 
 ---
 
@@ -197,6 +219,7 @@ Soy Jeisson, administrador de empresas y estratega digital. Aquí comparto estra
 
 Ponte nota del 1 al 10 en cada pregunta, suma y resta a 100: ese es tu margen de mejora.
 
+📸 Haz captura de las preguntas al final del video.
 👇 Comenta tu número y te digo por dónde empezar.
 📌 Guárdalo y hazlo con calma esta noche.
 
